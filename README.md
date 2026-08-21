@@ -64,21 +64,12 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 | 9 | and much more... | check all my repositories  | check all my repositories | [🔗](https://github.com/fatemeh231) |
 ---
 
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fatemeh231&show_icons=true&theme=dark&hide_title=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fatemeh231&layout=compact&theme=dark&hide=html)
-
----
-
 ## 🏆 Key Achievements
 
 | Metric | Value |
 | :--- | :--- |
 | **Projects Completed** | 8 / 10 |
 | **Industries Covered** | 7 |
-| **Total Portfolio Value** | $18,000 – $38,000 |
 | **Machine Learning Models** | Random Forest, XGBoost, LSTM |
 | **Rows Processed** | 18M+ (Healthcare Claims) |
 | **Scraping Platforms** | Twitter, Reddit, Telegram, Best Buy, Amazon, AliExpress |
