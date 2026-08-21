@@ -61,7 +61,7 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 | 6 | IoT Predictive Maintenance | Manufacturing | Python, LSTM, Power BI | [🔗](https://github.com/fatemeh231/IoT-Predictive-Maintenance) |
 | 7 | Brand Intelligence Engine | SaaS/Marketing | NLP, FinBERT, BERTopic | 🔲 Coming Soon |
 | 8 | E-Commerce Price Monitor | E-commerce | Selenium, BeautifulSoup, Power BI | [🔗](https://github.com/fatemeh231/ecommerce-price-monitor) |
-
+| 9 | and much more... | check all my repositories  | check all my repositories | [🔗](https://github.com/fatemeh231) |
 ---
 
 ## 📈 GitHub Stats
