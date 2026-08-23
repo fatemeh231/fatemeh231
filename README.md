@@ -126,8 +126,7 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 | **Deep Learning** | LSTM, TensorFlow, Keras, OpenCV, PyTorch |
 | **AutoML** | PyCaret |
 | **Rows Processed** | 18M+ (Healthcare Claims) |
-| **Scraping Platforms** | Twitter, Reddit, Telegram, Best Buy, Amazon, AliExpress |
-| **Portfolio Value** | $18,000 – $38,000 |
+| **Scraping Platforms** | Twitter, Reddit, Telegram, Best Buy, Amazon, AliExpress and many more...|
 
 ---
 
