@@ -110,7 +110,7 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 | 4 | Supply Chain Optimization | Logistics | Python, Pandas, Power BI | [🔗](https://github.com/fatemeh231/supply-chain-optimization-pipeline) |
 | 5 | Healthcare Claims Analyzer | Healthcare | Python, Scikit-learn, Power BI | [🔗](https://github.com/fatemeh231/healthcare-claims-analyzer) |
 | 6 | IoT Predictive Maintenance | Manufacturing | Python, LSTM, Power BI | [🔗](https://github.com/fatemeh231/IoT-Predictive-Maintenance) |
-| 7 | Brand Intelligence Engine | SaaS/Marketing | NLP, FinBERT, BERTopic | 🔲 Coming Soon |
+| 7 | Brand Intelligence Engine | SaaS/Marketing and more(has various useages) | NLP, Python ,Selenium ,VADER NLP ,📊 Power BI ,🔗 Telethon API and more | [🔗](https://github.com/fatemeh231/brand-intelligence-engine) |
 | 8 | E-Commerce Price Monitor | E-commerce | Selenium, BeautifulSoup, Power BI | [🔗](https://github.com/fatemeh231/ecommerce-price-monitor) |
 | 9 | and much more... | Various | Python, ML, Data Science | [🔗](https://github.com/fatemeh231?tab=repositories) |
 
