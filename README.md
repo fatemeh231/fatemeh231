@@ -121,9 +121,9 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 | Metric | Value |
 | :--- | :--- |
 | **Projects Completed** | 8 / 10 |
-| **Industries Covered** | 7 |
-| **Machine Learning Models** | Linear, Logistic, Random Forest, XGBoost, Decision Trees, KNN, SVM, Naive Bayes, K-Means, PCA, Gradient Boosting |
-| **Deep Learning** | LSTM, TensorFlow, Keras, OpenCV, PyTorch |
+| **Industries Covered** | 8 |
+| **Machine Learning Models** | Linear, Logistic, Random Forest, XGBoost, Decision Trees, KNN, SVM, Naive Bayes, K-Means, PCA, Gradient Boosting,etc... |
+| **Deep Learning** | LSTM, TensorFlow, Keras, OpenCV, PyTorch, vader,etc... |
 | **AutoML** | PyCaret |
 | **Rows Processed** | 18M+ (Healthcare Claims) |
 | **Scraping Platforms** | Twitter, Reddit, Telegram, Best Buy, Amazon, AliExpress and many more...|
@@ -148,12 +148,6 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 
 ---
 
-## 🚀 What I'm Working On
-
-- 🔲 **Project 7**: Brand Intelligence Engine (NLP + Sentiment Analysis)
-- 🔲 **Project 9**: CFO Cockpit (Streamlit + Financial Forecasting)
-- 🔲 **Project 10**: AI Data Cleaning Studio (Full Stack SaaS)
-- 🔲 **Web Scraping Automation**: Daily price monitors and brand intelligence
 
 ---
 
