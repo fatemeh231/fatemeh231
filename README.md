@@ -113,7 +113,8 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 | 7 | Brand Intelligence Engine | SaaS/Marketing and more(has various useages) | NLP, Python ,Selenium ,VADER NLP ,📊 Power BI ,🔗 Telethon API and more | [🔗](https://github.com/fatemeh231/brand-intelligence-engine) |
 | 8 | E-Commerce Price Monitor | E-commerce | Selenium, BeautifulSoup, Power BI | [🔗](https://github.com/fatemeh231/ecommerce-price-monitor) |
 | 9 | CFO Cockpit | Various | Python, ML, Data Science,streamlit,dashboard,deployement | [🔗](https://github.com/fatemeh231/cfo-cockpit) |
-| 10 | and much more... | Various | Python, ML, Data Science and much more... | [🔗](https://github.com/fatemeh231?tab=repositories) |
+| 10 | AI Data Cleaning Studio | Various | Python, pandas,Data Science,streamlit,dashboard,deployement | [🔗](https://github.com/fatemeh231/ai-data-cleaning-studio) |
+| 11 | and much more... | Various | Python, ML, Data Science and much more... | [🔗](https://github.com/fatemeh231?tab=repositories) |
 
 ---
 
@@ -121,12 +122,12 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 
 | Metric | Value |
 | :--- | :--- |
-| **Projects Completed** | 29 |
-| **Industries Covered** | 10 |
+| **Projects Completed** | 32 |
+| **Industries Covered** | 11 |
 | **Machine Learning Models** | Linear, Logistic, Random Forest, XGBoost, Decision Trees, KNN, SVM, Naive Bayes, K-Means, PCA, Gradient Boosting,etc... |
 | **Deep Learning** | LSTM, TensorFlow, Keras, OpenCV, PyTorch, vader,etc... |
-| **AutoML** | PyCaret |
-| **Rows Processed** | 18M+ (Healthcare Claims) |
+| **AutoML** | PyCaret etc... |
+| **Rows Processed** |max 18M+ (Healthcare Claims) and more...|
 | **Scraping Platforms** | Twitter, Reddit, Telegram, Best Buy, Amazon, AliExpress and many more...|
 
 ---
