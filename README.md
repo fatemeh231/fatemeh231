@@ -124,8 +124,8 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 
 | Metric | Value |
 | :--- | :--- |
-| **Projects Completed** | 32 |
-| **Industries Covered** | 11 |
+| **Projects Completed** | 35 |
+| **Industries Covered** | 15 |
 | **Machine Learning Models** | Linear, Logistic, Random Forest, XGBoost, Decision Trees, KNN, SVM, Naive Bayes, K-Means, PCA, Gradient Boosting,etc... |
 | **Deep Learning** | LSTM, TensorFlow, Keras, OpenCV, PyTorch, vader,etc... |
 | **AutoML** | PyCaret etc... |
