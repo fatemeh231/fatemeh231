@@ -114,7 +114,9 @@ I have completed **8 full-scale projects** across 7 industries, including Health
 | 8 | E-Commerce Price Monitor | E-commerce | Selenium, BeautifulSoup, Power BI | [🔗](https://github.com/fatemeh231/ecommerce-price-monitor) |
 | 9 | CFO Cockpit | Various | Python, ML, Data Science,streamlit,dashboard,deployement | [🔗](https://github.com/fatemeh231/cfo-cockpit) |
 | 10 | AI Data Cleaning Studio | Various | Python, pandas,Data Science,streamlit,dashboard,deployement | [🔗](https://github.com/fatemeh231/ai-data-cleaning-studio) |
-| 11 | and much more... | Various | Python, ML, Data Science and much more... | [🔗](https://github.com/fatemeh231?tab=repositories) |
+| 11 | webcam painter | for meetings ,annotators,etc... | pythin,opencv,pillow,numpy,etc... | [🔗](https://github.com/fatemeh231/webcam-painter). |
+| 12 | FOMC prediciotn | retail traders,prediction market,financial experts ,etc... | python,ml,sikit learn,random forest,hybrid,etc...| [🔗](https://github.com/fatemeh231/fomc-predictor). |
+| 13 | and much more... | Various | Python, ML, Data Science and much more... | [🔗](https://github.com/fatemeh231?tab=repositories) |
 
 ---
 
