@@ -1,181 +1,82 @@
-# 👋 Hi, I'm Fatemeh Hosseininasab
+Hi, I'm Fatemeh Hosseininasab
+Quant-ML Researcher | Data Scientist | Toobit Project Ambassador
 
-### Data Scientist | ML Engineer | ETL Specialist | Crypto Trader
+📍 Tehran, Iran | Turkish residency pending (sanctions-bypassable via Turkish VPS & banking)🎓 BSc Computer Science, University of Science and Culture (expected 2027)💼 Project Ambassador & Market Analyst, Toobit (Persian market)📄 Quant thesis on Kalshi (Fed benchmark replication): under submission
+🔬 Featured Research
+Kalshi CPI Calibration Thesis ⭐
 
----
+Replication and extension of Krause (2026a) on Kalshi KXCPIYOY calibration. Tests whether prediction markets are uniformly efficient and whether calibration-adjusted ML can exploit the bias.
 
-## 🧠 About Me
+Method: Five-script Python pipeline pulls historical markets + trade-level data from the Kalshi API, aggregates to daily last-trades, trains three classifiers (Logistic Regression, Random Forest, Gradient Boosting) with Platt scaling, and runs a walk-forward trading backtest.
 
-I am a **Data Scientist and Machine Learning Engineer** with 2+ years of experience building production-grade data solutions. I specialize in:
+Key Results:
 
-- ✅ **End-to-End ETL Pipelines**
-- ✅ **Machine Learning & Deep Learning**
-- ✅ **Web Scraping & Automation**
-- ✅ **Power BI & Data Visualization**
-- ✅ **NLP & Sentiment Analysis**
-- ✅ **Crypto Trading & Quantitative Finance**
-- ✅ **Database Design & Management**
+    🎯 Brier score 0.0602 vs published benchmark 0.0840 — 28% tighter calibration
+    📉 Systematic bias −0.0263 concentrated in 0.10–0.50 price range (favorite-longshot pattern)
+    💰 Walk-forward backtest: 314 trades, 75.48% win rate, +$3.68 PnL, Sharpe 0.71
+    🧩 Identified the Brier-versus-PnL paradox: a model marginally behind on Brier can still trade profitably when filtered through an edge-based rule
+    ⚠️ Honest limitations: N=21 distinct CPI events (wide CI), no live order-book slippage, fixed 5-cent edge threshold
 
-I have completed **8 full-scale projects** across 7 industries, including Healthcare, Supply Chain, Logistics, Marketing, Manufacturing, E-commerce, and Retail.
+Findings consistent with Krause (2026a), Diercks, Katz & Wright (2026, Fed Board), and Burgi, Deng & Whelan (2025, CESifo).
 
----
+📄 Thesis manuscript (English & Persian) under submission.
+🧠 About Me
 
-## 🔧 Tech Stack
+I build machine learning systems that trade macroeconomic events. My research focuses on prediction market efficiency, calibration, and event-driven trading strategies on Kalshi and Polymarket.
 
-### Languages & Libraries
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
+Beyond research, I work as a Project Ambassador & Market Analyst at Toobit (global crypto exchange) for the Persian market, where I use Python to automate reporting and analyze competitor activity across exchanges.
 
-### Machine Learning Algorithms
-- Linear Regression
-- Logistic Regression
-- Random Forest
-- XGBoost
-- Decision Trees
-- K-Nearest Neighbors (KNN)
-- Support Vector Machines (SVM)
-- Naive Bayes
-- K-Means Clustering
-- Principal Component Analysis (PCA)
-- Gradient Boosting
+I'm currently learning C++ with a focus on market microstructure and low-latency execution, with the long-term goal of building production algorithmic trading systems.
+📊 Selected Projects
+Quant & Trading
+Project	Description	Tech Stack	Link
+Kalshi CPI Calibration Thesis	Fed benchmark replication + ML trading backtest	Python, scikit-learn, Kalshi API	🔗
+FOMC Predictor	Hybrid ML + prediction markets for Fed rate decisions. 95.45% accuracy on 2024–2026 test set	Python, scikit-learn, FRED, Kalshi, Polymarket	🔗
+Quant-Momentum-Sniper	Momentum engine for 5m crypto with ATR volatility gate, EMA ribbon, ML feature selection	Python, Pine Script	🔗
+NBA Prediction Trading Bot	Ensemble ML (XGBoost + RF) with live signals and Kelly sizing on Polymarket	Python, XGBoost, Polymarket	🔗
+NFL Prediction Trading Bot	NFL game prediction + Polymarket trading bot with Kelly position sizing	Python, XGBoost, Polymarket	🔗
+Trading Journal	BTCUSDT ETL pipeline with performance metrics and emotional analysis	Python, Jupyter	🔗
+Data Engineering & ML at Scale
+Project	Description	Tech Stack	Link
+Healthcare Claims Analyzer	ETL on 18M+ rows, denial prediction, Power BI dashboard	Python, scikit-learn, Power BI	🔗
+IoT Predictive Maintenance	LSTM failure prediction 48 hours ahead, 99.45% accuracy	Python, TensorFlow, Power BI	🔗
+AI Data Cleaning Studio	Streamlit app for PII detection, auto-profiling, cleaning at scale	Python, Streamlit, Presidio	🔗
+CFO Cockpit	Prophet-based forecasting for 46 US public companies from SEC EDGAR	Python, Prophet, Streamlit	🔗
+NLP & Web Scraping
+Project	Description	Tech Stack	Link
+Brand Intelligence Engine	Multi-source reputation scraper (Trustpilot, Google Play, Telegram) with VADER sentiment	Python, Selenium, VADER	🔗
+E-commerce Price Monitor	Auto price tracking across Best Buy, Amazon, AliExpress	Python, Selenium, BeautifulSoup	🔗
+🔧 Tech Stack
+Languages
 
-### Deep Learning & AI
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+PythonSQLC++ (learning — HFT focus)
+ML & Quant
 
-### AutoML & Advanced ML
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![PyCaret](https://img.shields.io/badge/PyCaret-0078D4?style=flat&logo=python&logoColor=white)
+scikit-learnXGBoostTensorFlowPyTorchStatsmodelsProphet
+Data
 
-### Statistical Analysis & Time Series
-![Statsmodels](https://img.shields.io/badge/Statsmodels-3776AB?style=flat&logo=python&logoColor=white)
-![Prophet](https://img.shields.io/badge/Prophet-0078D4?style=flat&logo=python&logoColor=white)
+PandasNumPyParquetPostgreSQL
+Deployment & BI
 
-### Data Visualization
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-![Dash](https://img.shields.io/badge/Dash-0072B0?style=flat&logo=python&logoColor=white)
+StreamlitFastAPIDockerPower BI
+Market Data Sources
 
-### GUI & Desktop Apps
-![Tkinter](https://img.shields.io/badge/Tkinter-0078D4?style=flat&logo=python&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-0078D4?style=flat&logo=python&logoColor=white)
+KalshiPolymarketFREDSEC EDGAR
+🚀 Currently Working On
 
-### Web Scraping
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-CCCCCC?style=flat&logo=python&logoColor=black)
-![Requests](https://img.shields.io/badge/Requests-3776AB?style=flat&logo=python&logoColor=white)
+    📤 Submitting the Kalshi thesis to SSRN (working paper) and an ISC-indexed Persian journal
+    🔧 Implementing block bootstrap by event date for robust Sharpe confidence intervals
+    ⚡ Learning C++ with a focus on market microstructure and low-latency execution
 
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+🤝 What I'm Looking For
 
-### Data Formats
-![CSV](https://img.shields.io/badge/CSV-000000?style=flat&logo=python&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-![Parquet](https://img.shields.io/badge/Parquet-0078D4?style=flat&logo=apache-parquet&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)
+    🔬 Research collaborations on prediction market efficiency, macro forecasting, and event-driven trading
+    👨‍🏫 Mentors in quantitative finance (especially anyone with Kalshi / Polymarket / CME experience)
+    💼 AI annotation / data labeling contracts (Mercor, Toloka, Scale AI) for steady USD cash flow
+    🐍 Freelance contracts in Python ML / ETL / dashboarding — sniper mode, only high-value, escrow-funded
 
-### APIs & Web Frameworks
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+📬 Connect With Me
 
-### Data Analysis & BI Tools
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black)
-![Dash](https://img.shields.io/badge/Dash-0072B0?style=flat&logo=plotly&logoColor=white)
+LinkedInX (Twitter)GitHubEmail
 
-### Tools & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-
----
-
-## 📊 My Portfolio Projects
-
-| # | Project | Industry | Tech Stack | Link |
-|---|---------|----------|------------|------|
-| 1 | Superstore Data Cleaning | Retail | Python, Pandas, Power BI | [🔗](https://github.com/fatemeh231/superstore-data-cleaning-pipeline) |
-| 2 | Ad Spend Harmonizer | Marketing | Python, Pandas, Power BI | [🔗](https://github.com/fatemeh231/ad-spend-harmonizer) |
-| 3 | SCMS OTIF Audit | Supply Chain | Python, Regex, Power BI | [🔗](https://github.com/fatemeh231/scms-shipment-otif-audit) |
-| 4 | Supply Chain Optimization | Logistics | Python, Pandas, Power BI | [🔗](https://github.com/fatemeh231/supply-chain-optimization-pipeline) |
-| 5 | Healthcare Claims Analyzer | Healthcare | Python, Scikit-learn, Power BI | [🔗](https://github.com/fatemeh231/healthcare-claims-analyzer) |
-| 6 | IoT Predictive Maintenance | Manufacturing | Python, LSTM, Power BI | [🔗](https://github.com/fatemeh231/IoT-Predictive-Maintenance) |
-| 7 | Brand Intelligence Engine | SaaS/Marketing and more(has various useages) | NLP, Python ,Selenium ,VADER NLP ,📊 Power BI ,🔗 Telethon API and more | [🔗](https://github.com/fatemeh231/brand-intelligence-engine) |
-| 8 | E-Commerce Price Monitor | E-commerce | Selenium, BeautifulSoup, Power BI | [🔗](https://github.com/fatemeh231/ecommerce-price-monitor) |
-| 9 | CFO Cockpit | Various | Python, ML, Data Science,streamlit,dashboard,deployement | [🔗](https://github.com/fatemeh231/cfo-cockpit) |
-| 10 | AI Data Cleaning Studio | Various | Python, pandas,Data Science,streamlit,dashboard,deployement | [🔗](https://github.com/fatemeh231/ai-data-cleaning-studio) |
-| 11 | webcam painter | for meetings ,annotators,etc... | pythin,opencv,pillow,numpy,etc... | [🔗](https://github.com/fatemeh231/webcam-painter). |
-| 12 | FOMC prediciotn | retail traders,prediction market,financial experts ,etc... | python,ml,sikit learn,random forest,hybrid,etc...| [🔗](https://github.com/fatemeh231/fomc-predictor). |
-| 13 | and much more... | Various | Python, ML, Data Science and much more... | [🔗](https://github.com/fatemeh231?tab=repositories) |
-
----
-
-## 🏆 Key Achievements
-
-| Metric | Value |
-| :--- | :--- |
-| **Projects Completed** | 35 |
-| **Industries Covered** | 15 |
-| **Machine Learning Models** | Linear, Logistic, Random Forest, XGBoost, Decision Trees, KNN, SVM, Naive Bayes, K-Means, PCA, Gradient Boosting,etc... |
-| **Deep Learning** | LSTM, TensorFlow, Keras, OpenCV, PyTorch, vader,etc... |
-| **AutoML** | PyCaret etc... |
-| **Rows Processed** |max 18M+ (Healthcare Claims) and more...|
-| **Scraping Platforms** | Twitter, Reddit, Telegram, Best Buy, Amazon, AliExpress and many more...|
-
----
-
-## 📚 Libraries & Tools I Use
-
-| Category | Tools |
-| :--- | :--- |
-| **Data Processing** | Pandas, NumPy, SciPy |
-| **Visualization** | Matplotlib, Seaborn, Plotly, Power BI, Dash |
-| **Machine Learning** | Scikit-learn, XGBoost, PyCaret, Statsmodels |
-| **Deep Learning** | TensorFlow, Keras, PyTorch, OpenCV |
-| **Web Scraping** | Selenium, BeautifulSoup, Requests |
-| **Databases** | PostgreSQL, SQLite |
-| **Data Formats** | CSV, Excel, Parquet, JSON |
-| **BI & Analytics** | Power BI, Excel, Dash |
-| **Web Frameworks** | FastAPI, Flask, Streamlit |
-| **Desktop Apps** | Tkinter, CustomTkinter |
-| **DevOps** | Docker, Git, GitHub |
-
----
-
-
----
-
-## 📬 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/seyedeh-fatemeh-hosseininasab-7320bb322)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/fatemeh231)
-
----
-
-## 💡 Fun Fact
-
-> *"I'm a Crypto Trader who uses data science to predict market movements. My trading bots have achieved 5-10% monthly returns using Kelly Criterion and machine learning models."*
-
----
-
-## 📄 License
-
-This profile README is open-source. Feel free to use it as inspiration for your own.
-
----
-
-**Built with ❤️ by Fatemeh**
-
----
-
-*"Data is the new oil. I'm here to refine it."* 🔥
+"One finished paper beats thirty-five unfinished projects."
